@@ -9,10 +9,10 @@ import Square from './Task2';
 ReactDOM.render(
   <React.StrictMode>
 
-    <Text value="Обычный синий текст" fontSize={24} underlined="false" color="blue"/>
-    <Text value="Мелкий оранжевый текст" fontSize={12} underlined="false" color="orange"/>
+    <Text value="Обычный синий текст" fontSize={24} underlined={false} color="blue"/>
+    <Text value="Мелкий оранжевый текст" fontSize={12} underlined={false} color="orange"/>
     <Text value="Большой Коралловый текст" fontSize={87} color="coral"/>
-    <Text value="Подчёркнуто серый текст" fontSize={56} color="grey" underlined="true"/>
+    <Text value="Подчёркнуто серый текст" fontSize={56} color="grey" underlined={true}/>
 
     <Square cssClass="square-red" label="Красный круг"/>
     <Square cssClass="square-coral" label="Коралловый квадрат"/>
